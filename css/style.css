@@ -1,0 +1,50 @@
+/*
+User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the
+landing page.
+
+User Story #13: The navbar should always be at the top of the viewport.
+
+User Story #14: My product landing page should have at least one media query.
+
+User Story #15: My product landing page should utilize CSS flexbox at least once.
+*/
+
+#page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: inherit;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+#header-img {
+}
+
+#nav-bar {
+    align-self: center;
+}
+
+#home {
+
+}
+
+#footer {
+    display: inherit;
+    flex-flow: row nowrap;
+    /*
+    * flex-direction: row-reverse;
+    * flex-wrap: nowrap;
+    */
+    justify-content: space-around;
+}
+
+.logo {
+
+}
+
+a {
+
+}
